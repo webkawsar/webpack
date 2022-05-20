@@ -1,5 +1,8 @@
+import jquery from 'jquery';
+import _ from 'lodash';
 import { loadIlandImage, loadLibraryImage } from "./imageViewer";
 import './main.css';
+
 
 console.log('Welcome from webpack');
 
@@ -16,4 +19,7 @@ const fullName = () => {
 }
 
 loadIlandImage();
-loadLibraryImage()
+loadLibraryImage();
+
+console.log(jquery, 'jquery');
+console.log(_, 'lodash');
